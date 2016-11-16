@@ -97,8 +97,9 @@ public class SolritemRepositoryImpl implements CustomCORepository {
 	}
 
 	@Override
-	public boolean deleteById() {
+	public boolean deleteById(String id, String solrCorename) {
 		// TODO Auto-generated method stub
+		setUpCoreForSolr(solrCorename);
 		return false;
 	}
 

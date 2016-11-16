@@ -18,7 +18,7 @@ public interface CustomCORepository {
 
 	long getCount(SolrQuery sq, String solrCorename);
 	
-	boolean deleteById()
+	boolean deleteById(String id,String solrCorename)
 ;		
 
 }
