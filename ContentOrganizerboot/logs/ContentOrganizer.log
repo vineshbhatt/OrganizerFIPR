@@ -1,0 +1,403 @@
+2016-11-14 22:08:21.087  INFO 14368 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 14368 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-14 22:08:21.114  INFO 14368 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-14 22:08:21.485  INFO 14368 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d8995e: startup date [Mon Nov 14 22:08:21 IST 2016]; root of context hierarchy
+2016-11-14 22:08:23.357  INFO 14368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2b405166] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-14 22:08:25.694  INFO 14368 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-14 22:08:25.740  INFO 14368 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-14 22:08:25.754  INFO 14368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-14 22:08:26.930  INFO 14368 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-14 22:08:27.218  INFO 14368 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-14 22:08:27.222  INFO 14368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-14 22:08:27.223  INFO 14368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-14 22:08:27.223  INFO 14368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-14 22:08:27.223  INFO 14368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-14 22:08:31.454  INFO 14368 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-14 22:08:31.602  INFO 14368 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-14 22:08:31.607  INFO 14368 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 11.205 seconds (JVM running for 15.866)
+2016-11-14 22:08:51.515  INFO 14368 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-14 22:08:51.856  INFO 14368 --- [http-nio-8080-exec-2] c.t.c.controllers.CoController           : Inside Controlled
+2016-11-14 23:45:18.285  INFO 5600 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 5600 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-14 23:45:18.424  INFO 5600 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-14 23:45:18.536  INFO 5600 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@140e5db: startup date [Mon Nov 14 23:45:18 IST 2016]; root of context hierarchy
+2016-11-14 23:45:21.094  INFO 5600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24bf0a73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-14 23:45:21.770  INFO 5600 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-14 23:45:21.784  INFO 5600 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-14 23:45:21.785  INFO 5600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-14 23:45:21.922  INFO 5600 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-14 23:45:22.205  INFO 5600 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-14 23:45:22.211  INFO 5600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-14 23:45:22.211  INFO 5600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-14 23:45:22.212  INFO 5600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-14 23:45:22.212  INFO 5600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-14 23:45:25.293  INFO 5600 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-14 23:45:25.408  INFO 5600 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-14 23:45:25.421  INFO 5600 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 7.982 seconds (JVM running for 10.821)
+2016-11-14 23:45:38.977  INFO 5600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:09:27.086  INFO 13920 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 13920 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:09:27.123  INFO 13920 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:09:27.251  INFO 13920 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@140e5db: startup date [Wed Nov 16 17:09:27 IST 2016]; root of context hierarchy
+2016-11-16 17:09:29.270  INFO 13920 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b6d8307] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:09:30.022  INFO 13920 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:09:30.036  INFO 13920 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:09:30.037  INFO 13920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:09:30.274  INFO 13920 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:09:30.564  INFO 13920 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:09:30.570  INFO 13920 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:09:30.570  INFO 13920 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:09:30.570  INFO 13920 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:09:30.571  INFO 13920 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:09:31.006  WARN 13920 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'coController': Unsatisfied dependency expressed through field 'sdao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'solrDAO': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.apache.solr.client.solrj.SolrQuery' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2016-11-16 17:09:31.008  INFO 13920 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2016-11-16 17:09:31.052  INFO 13920 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2016-11-16 17:09:31.203 ERROR 13920 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field sdao in com.tcs.contentorganizer.controllers.CoController required a bean of type 'org.apache.solr.client.solrj.SolrQuery' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.apache.solr.client.solrj.SolrQuery' in your configuration.
+
+2016-11-16 17:11:49.079  INFO 14820 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 14820 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:11:49.198  INFO 14820 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:11:49.304  INFO 14820 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a8d7: startup date [Wed Nov 16 17:11:49 IST 2016]; root of context hierarchy
+2016-11-16 17:11:50.974  INFO 14820 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1e6e1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:11:51.675  INFO 14820 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:11:51.687  INFO 14820 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:11:51.688  INFO 14820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:11:51.823  INFO 14820 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:11:52.038  INFO 14820 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:11:52.043  INFO 14820 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:11:52.044  INFO 14820 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:11:52.044  INFO 14820 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:11:52.044  INFO 14820 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:11:54.269  INFO 14820 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:11:54.396  INFO 14820 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:11:54.402  INFO 14820 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 5.933 seconds (JVM running for 6.731)
+2016-11-16 17:12:01.590  INFO 14820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:13:01.009 ERROR 14820 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.ArrayList cannot be cast to com.tcs.contentorganizer.beans.FileShareBean] with root cause
+
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to com.tcs.contentorganizer.beans.FileShareBean
+	at com.tcs.contentorganizer.dao.DatabaseDAO.getFileShareDetails(DatabaseDAO.java:38) ~[classes/:na]
+	at com.tcs.contentorganizer.dao.SolrDAO.getDocCountforActivity(SolrDAO.java:35) ~[classes/:na]
+	at com.tcs.contentorganizer.controllers.CoController.getQuery(CoController.java:27) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_112]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2016-11-16 17:18:23.204  INFO 12064 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 12064 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:18:23.248  INFO 12064 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:18:23.381  INFO 12064 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a8d7: startup date [Wed Nov 16 17:18:23 IST 2016]; root of context hierarchy
+2016-11-16 17:18:24.999  INFO 12064 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb441281] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:18:25.622  INFO 12064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:18:25.635  INFO 12064 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:18:25.636  INFO 12064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:18:25.792  INFO 12064 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:18:26.013  INFO 12064 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:18:26.018  INFO 12064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:18:26.018  INFO 12064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:18:26.019  INFO 12064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:18:26.019  INFO 12064 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:18:28.064  INFO 12064 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:18:28.142  INFO 12064 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:18:28.150  INFO 12064 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 5.603 seconds (JVM running for 6.469)
+2016-11-16 17:18:54.444  INFO 12064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:19:59.604 ERROR 12064 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: java.util.ArrayList cannot be cast to com.tcs.contentorganizer.beans.FileShareBean] with root cause
+
+java.lang.ClassCastException: java.util.ArrayList cannot be cast to com.tcs.contentorganizer.beans.FileShareBean
+	at com.tcs.contentorganizer.dao.DatabaseDAO.getFileShareDetails(DatabaseDAO.java:38) ~[classes/:na]
+	at com.tcs.contentorganizer.dao.SolrDAO.getDocCountforActivity(SolrDAO.java:35) ~[classes/:na]
+	at com.tcs.contentorganizer.controllers.CoController.getQuery(CoController.java:27) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_112]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2016-11-16 17:21:02.393  INFO 18376 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 18376 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:21:02.406  INFO 18376 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:21:02.522  INFO 18376 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@140e5db: startup date [Wed Nov 16 17:21:02 IST 2016]; root of context hierarchy
+2016-11-16 17:21:04.147  INFO 18376 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a726d0be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:21:04.758  INFO 18376 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:21:04.771  INFO 18376 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:21:04.772  INFO 18376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:21:04.916  INFO 18376 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:21:05.133  INFO 18376 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:21:05.138  INFO 18376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:21:05.138  INFO 18376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:21:05.139  INFO 18376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:21:05.139  INFO 18376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:21:07.114  INFO 18376 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:21:07.186  INFO 18376 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:21:07.196  INFO 18376 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 5.572 seconds (JVM running for 6.437)
+2016-11-16 17:21:13.272  INFO 18376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:24:04.884  INFO 18232 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 18232 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:24:04.937  INFO 18232 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:24:05.097  INFO 18232 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15fac5f: startup date [Wed Nov 16 17:24:05 IST 2016]; root of context hierarchy
+2016-11-16 17:24:06.801  INFO 18232 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d10ad04f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:24:07.430  INFO 18232 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:24:07.442  INFO 18232 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:24:07.443  INFO 18232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:24:07.586  INFO 18232 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:24:07.809  INFO 18232 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:24:07.813  INFO 18232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:24:07.814  INFO 18232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:24:07.814  INFO 18232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:24:07.815  INFO 18232 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:24:09.920  INFO 18232 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:24:09.994  INFO 18232 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:24:10.003  INFO 18232 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 5.878 seconds (JVM running for 6.825)
+2016-11-16 17:24:36.463  INFO 18232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:28:54.201  INFO 10524 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 10524 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:28:54.212  INFO 10524 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:28:54.428  INFO 10524 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d8995e: startup date [Wed Nov 16 17:28:54 IST 2016]; root of context hierarchy
+2016-11-16 17:28:56.178  INFO 10524 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc0f456e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:28:56.845  INFO 10524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:28:56.858  INFO 10524 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:28:56.859  INFO 10524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:28:57.009  INFO 10524 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:28:57.187  INFO 10524 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:28:57.191  INFO 10524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:28:57.191  INFO 10524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:28:57.191  INFO 10524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:28:57.192  INFO 10524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:28:58.838  INFO 10524 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:28:58.921  INFO 10524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:28:58.926  INFO 10524 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 5.852 seconds (JVM running for 10.755)
+2016-11-16 17:29:03.832  INFO 10524 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:30:13.327  INFO 10524 --- [RMI TCP Connection(2)-3.209.148.226] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2016-11-16 17:30:13.328  INFO 10524 --- [RMI TCP Connection(2)-3.209.148.226] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d8995e: startup date [Wed Nov 16 17:28:54 IST 2016]; root of context hierarchy
+2016-11-16 17:30:13.333  INFO 10524 --- [RMI TCP Connection(2)-3.209.148.226] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2016-11-16 17:30:24.212  INFO 17520 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 17520 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:30:24.241  INFO 17520 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:30:24.411  INFO 17520 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d94571: startup date [Wed Nov 16 17:30:24 IST 2016]; root of context hierarchy
+2016-11-16 17:30:26.451  INFO 17520 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22de5a24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:30:27.268  INFO 17520 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:30:27.289  INFO 17520 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:30:27.290  INFO 17520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:30:27.540  INFO 17520 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:30:27.751  INFO 17520 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:30:27.756  INFO 17520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:30:27.757  INFO 17520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:30:27.757  INFO 17520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:30:27.757  INFO 17520 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:30:30.066  INFO 17520 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:30:30.194  INFO 17520 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:30:30.200  INFO 17520 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 6.722 seconds (JVM running for 10.089)
+2016-11-16 17:30:31.088  INFO 17520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:54:28.053  INFO 17640 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 17640 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:54:28.078  INFO 17640 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:54:28.165  INFO 17640 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1d94571: startup date [Wed Nov 16 17:54:28 IST 2016]; root of context hierarchy
+2016-11-16 17:54:29.909  INFO 17640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eaa0fd23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:54:30.723  INFO 17640 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:54:30.738  INFO 17640 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:54:30.739  INFO 17640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:54:30.979  INFO 17640 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:54:31.197  INFO 17640 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:54:31.201  INFO 17640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:54:31.202  INFO 17640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:54:31.202  INFO 17640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:54:31.202  INFO 17640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:54:33.488  INFO 17640 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:54:33.582  INFO 17640 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:54:33.588  INFO 17640 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 6.273 seconds (JVM running for 9.31)
+2016-11-16 17:54:47.923  INFO 17640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-11-16 17:55:32.664  INFO 17640 --- [http-nio-8080-exec-1] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2016-11-16 17:55:33.030  INFO 17640 --- [http-nio-8080-exec-1] o.s.jdbc.support.SQLErrorCodesFactory    : SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2016-11-16 17:55:35.336 ERROR 17640 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [select * from fs_activity_master_solr where activity_id=?]; SQL state [null]; error code [17014]; ResultSet.next was not called; nested exception is java.sql.SQLException: ResultSet.next was not called] with root cause
+
+java.sql.SQLException: ResultSet.next was not called
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112) ~[ojdbc14-10.2.0.3.0.jar:Oracle JDBC Driver version - "10.2.0.3.0"]
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146) ~[ojdbc14-10.2.0.3.0.jar:Oracle JDBC Driver version - "10.2.0.3.0"]
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:208) ~[ojdbc14-10.2.0.3.0.jar:Oracle JDBC Driver version - "10.2.0.3.0"]
+	at oracle.jdbc.driver.OracleResultSetImpl.getInt(OracleResultSetImpl.java:511) ~[ojdbc14-10.2.0.3.0.jar:Oracle JDBC Driver version - "10.2.0.3.0"]
+	at oracle.jdbc.driver.OracleResultSet.getInt(OracleResultSet.java:1563) ~[ojdbc14-10.2.0.3.0.jar:Oracle JDBC Driver version - "10.2.0.3.0"]
+	at com.tcs.contentorganizer.mapper.ActivityDetailsExtractor.extractData(ActivityDetailsExtractor.java:16) ~[classes/:na]
+	at com.tcs.contentorganizer.mapper.ActivityDetailsExtractor.extractData(ActivityDetailsExtractor.java:1) ~[classes/:na]
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:697) ~[spring-jdbc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633) ~[spring-jdbc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:684) ~[spring-jdbc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:716) ~[spring-jdbc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:726) ~[spring-jdbc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at com.tcs.contentorganizer.dao.DatabaseDAO.getActivityStatusFromActivityId(DatabaseDAO.java:47) ~[classes/:na]
+	at com.tcs.contentorganizer.controllers.CoController.getQuery(CoController.java:27) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_112]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2016-11-16 17:58:27.196  INFO 13508 --- [main] c.t.c.ContentOrganizerbootApplication    : Starting ContentOrganizerbootApplication on 01HW380794 with PID 13508 (started by 712444 in C:\Users\712444\Documents\GE Confidential\SpringWS\ContentOrganizerboot)
+2016-11-16 17:58:27.267  INFO 13508 --- [main] c.t.c.ContentOrganizerbootApplication    : No active profile set, falling back to default profiles: default
+2016-11-16 17:58:27.423  INFO 13508 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@140e5db: startup date [Wed Nov 16 17:58:27 IST 2016]; root of context hierarchy
+2016-11-16 17:58:29.128  INFO 13508 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$995d4c2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-16 17:58:29.764  INFO 13508 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-16 17:58:29.777  INFO 13508 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-16 17:58:29.778  INFO 13508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2016-11-16 17:58:29.916  INFO 13508 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-16 17:58:30.122  INFO 13508 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-16 17:58:30.126  INFO 13508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-16 17:58:30.127  INFO 13508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-16 17:58:30.127  INFO 13508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-16 17:58:30.127  INFO 13508 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-16 17:58:32.137  INFO 13508 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-16 17:58:32.216  INFO 13508 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-16 17:58:32.225  INFO 13508 --- [main] c.t.c.ContentOrganizerbootApplication    : Started ContentOrganizerbootApplication in 5.653 seconds (JVM running for 6.565)
+2016-11-16 17:58:40.292  INFO 13508 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
